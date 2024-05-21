@@ -62,7 +62,7 @@ img {
   height: auto;
 }
 
-.image-circle {
+.pete-image {
   border: 2px solid #003049;
   border-radius: 50%;
 }
@@ -75,4 +75,32 @@ footer {
 /* Other page elements */
 hr {
   border: 1px solid black;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.pete-intro {
+  text-align: left;
+  align-items: right;
+  
+}
+
+.pete-about {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.portfolio-projects{
+display: flex;
+font-size: 14px;
+}
+
+
+.portfolio-projects section {
+  margin-right: 20px; 
 }
